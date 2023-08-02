@@ -1,0 +1,227 @@
+:root {
+  --base_color: #282c34;
+  --contrast_color: bisque;
+  --myYellow: rgb(236, 202, 0);
+}
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Bungee+Hairline&family=Cabin+Sketch&family=Dynalight&family=Fredericka+the+Great&family=Libre+Barcode+128+Text&family=Monoton&family=Nosifer&family=Plaster&family=Press+Start+2P&family=Redacted+Script:wght@300&family=Rubik+Glitch&family=Rubik+Wet+Paint&family=Seaweed+Script&family=Special+Elite&family=Wallpoet&display=swap&family=Special+Elite&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  min-width: 375px;
+  color: white;
+  background-color: var(--base_color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.view,
+.main {
+  max-width: 350;
+  min-height: 95vh;
+  /* 
+  max-width: 350;
+  position: relative; */
+}
+
+.view {
+  /* width: 83vw;
+   */
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+main {
+  /* max-width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+}
+
+.layoutContainer {
+  /* display: flex; */
+}
+.rigthBlock {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+h1,
+h2,
+h3 {
+  color: var(--myYellow);
+  font-family: "Big Shoulders Stencil Text", cursive;
+}
+
+header {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+h1,
+h2,
+h3 {
+  /* color: var(--myYellow);
+  font-family: "Big Shoulders Stencil Text", cursive; */
+}
+
+nav {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  margin: 0;
+  padding: 0; */
+}
+
+ul {
+  /* list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; */
+}
+
+a,
+ul li {
+  /* text-decoration: none;
+  color: orange;
+  margin: 5px; */
+}
+
+a:hover {
+  /* color: coral;
+  text-shadow: 0 0 10px coral; */
+}
+
+.flexRow {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+}
+
+.flexColumn {
+  /* display: flex;
+  flex-direction: Column;
+  align-items: center; */
+}
+
+.textImput {
+  /* width: 150px; */
+}
+
+.numInput {
+  /* width: 75px; */
+}
+
+.invisible {
+  /* visibility: hidden; */
+}
+
+.inexistent {
+  /* display: none; */
+}
+
+.articleImg,
+.article {
+  /* margin-top: 40px;
+  width: 75vw;
+  padding-left: 10px;
+  max-width: 350px; */
+}
+
+.appButton {
+  /* border-radius: 10px;
+  border-color: rgb(218, 116, 43);
+  color: rgb(0, 0, 0);
+  background-color: burlywood;
+  text-shadow: 0 0 10px rgb(246, 246, 246);
+  font-size: 12px;
+  margin: 0;
+  padding: 0; */
+}
+
+.appButtonDanger {
+  /* border-radius: 10px;
+  color: rgb(75, 3, 3);
+  border-color: rgb(255, 0, 0);
+  background-color: rgb(211, 73, 31);
+  text-shadow: 0 0 5px rgb(246, 246, 246); */
+}
+
+.appButtonGreen {
+  /* border-radius: 10px;
+  color: rgb(3, 75, 21);
+  border-color: rgb(5, 125, 3);
+  background-color: rgb(31, 211, 61);
+  text-shadow: 0 0 5px rgb(246, 246, 246); */
+}
+
+.tinyNumInPut {
+  /* width: 45px; */
+}
+
+p {
+  /* font-size: 12px; */
+}
+select,
+input {
+  width: 100%;
+  margin-bottom: 0.8em;
+  background-color: var(--base_color);
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+select {
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea {
+  /* max-width: 150px;
+  max-height: 50px;
+  background-color: var(--base_color);
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 3px 5px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center; */
+}
+
+textarea::placeholder {
+  /* color: white; */
+}
+
+button {
+  background-color: var(--base_color);
+  min-width: 25% !important;
+  color: #ffa500;
+  border: 2px solid #ffa500;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

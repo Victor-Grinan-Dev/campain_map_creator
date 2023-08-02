@@ -1,0 +1,37 @@
+.tile{
+    background-repeat: no-repeat;
+    background-position: "center";
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    position: relative;
+}
+
+.tileContent{
+    height: 30px;
+    width: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, 15px);  
+}
+
+.tileFilter{
+    position:absolute;
+    width: 75px;
+    height: 75px;
+    background-size: 75px 75px;
+}
+
+.outSight{
+    z-index: 5;
+}
+
+.unexplored{
+    z-index: 5;
+}
+
+.selected{
+    z-index: 2;
+}

@@ -1,0 +1,55 @@
+.token{ /* round base */
+    color: black; /* subfaction color */
+    border-radius: 50%;
+    z-index: 3;
+    font-size: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+
+.factionColor{ /* border around base */
+    background-color: rgb(114, 31, 31);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tokenContent{
+    color: rgb(254, 254, 254);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tokenIcon,
+.tokenPoints {
+    padding: 1px;
+    margin: 1px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.tokenPoints {
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 5px;
+}
+
+
+.tokenIcon{
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
