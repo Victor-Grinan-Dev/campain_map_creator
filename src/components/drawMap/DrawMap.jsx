@@ -429,8 +429,8 @@ const DrawMap = () => {
         }
       </div>
       <div className="bottomPanel">
-        <p style={fontSize}>Brush:</p>
         <div className="panelSection">
+          <p style={fontSize}>Brush:</p>
           <div className="panelSection">
             <button
               name="plains"

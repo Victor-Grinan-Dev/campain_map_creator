@@ -4,9 +4,7 @@ import Main from "../components/Main";
 function Layout() {
   return (
     <div className="layoutContainer">
-      <div className="rigthBlock">
-        <Main />
-      </div>
+      <Main />
     </div>
   );
 }

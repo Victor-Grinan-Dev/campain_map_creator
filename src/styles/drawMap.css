@@ -10,6 +10,7 @@
 .bottomPanel,
 .topPanel {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   height: 120px;
   width: 95vw;
