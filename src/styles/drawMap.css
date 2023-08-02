@@ -4,13 +4,16 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
+  min-height: 95vh;
 }
 
+.bottomPanel,
 .topPanel {
   display: flex;
   flex-wrap: wrap;
   height: 120px;
-  width: 100%;
+  width: 95vw;
+  max-width: 600px;
 }
 
 .topArea {
@@ -30,13 +33,14 @@
 .panelSection {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 95vw;
+  max-width: 500px;
   align-items: center;
   justify-content: space-between;
 }
 
 .midTopPanel {
-  width: 100%;
+  width: 95vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -62,9 +66,13 @@
 }
 
 .canvas {
-  position: relative;
-  max-width: 100%;
-  max-height: 70vw;
+  position: absolute;
+
+  /* left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%); */
 }
 
 .smallButton {
